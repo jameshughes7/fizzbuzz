@@ -1,15 +1,15 @@
 require './lib/fizzbuzz'
 describe 'fizzbuzz' do
-  it 'returns "Fizzbuzz" when passed multiple of 3 and 5' do
-    expect(fizzbuzz(15)).to eq 'Fizzbuzz'
+  it 'returns "Fizzbuzz" when passed a multiple of 3 and 5' do
+    expect(15.fizzbuzz).to eq 'Fizzbuzz'
   end
-  it 'returns "Fizz" when passed multiple of 3' do
-    expect(fizzbuzz(3)).to eq 'Fizz'
+  it 'returns "Fizz" when passed a multiple of 3' do
+    expect(3.fizzbuzz).to eq 'Fizz'
   end
-  it 'returns "Buzz" when passed multiples of 5' do
-    expect(fizzbuzz(5)).to eq 'Buzz'
+  it 'returns "Buzz" when passed a multiple of 5' do
+    expect(5.fizzbuzz).to eq 'Buzz'
   end
   it 'returns the given number in all other cases' do
-    expect(fizzbuzz(17)).to eq 17
+    expect(17.fizzbuzz).to eq 17
   end
 end
