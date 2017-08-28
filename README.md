@@ -9,7 +9,7 @@ This taught me the fundamentals of Test Driven Development and gave me the oppor
 
 git@github.com:jameshughes7/fizzbuzz.git
 ```shell
-ruby directory.rb
+gem install rspec
 ```
 
 
