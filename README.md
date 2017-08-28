@@ -8,7 +8,9 @@ This taught me the fundamentals of Test Driven Development and gave me the oppor
 ## Getting started ##
 
 git@github.com:jameshughes7/fizzbuzz.git
-gem install rspec
+```shell
+ruby directory.rb
+```
 
 
 ## Running tests
